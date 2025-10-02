@@ -7,13 +7,13 @@ X_POS = 0
 Y_POS = 1
 Z_POS = 2
 
-N = 5
-T = 60
+N = 50
+T = 180
 
 # copying the rate of 10 from matlab script...
 # welp 10 deosnt' work, uhh, try 5?
 # trying 0.2 -> works!
-alpha = 0.02          
+alpha = 0.0002
 
 # basically saying that everyone is connected to everyone except itselff-z
 # but never connected to itself: GRAPH!
